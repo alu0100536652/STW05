@@ -25,3 +25,10 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 ## Datos de desarrollo
 
 Durante la ejecución de tareas gulp se puede presentar un fallo con gulp-notify, para solucionarlo instalar en la terminal unix 'libnotify-bin' con el comando: sudo apt-get install libnotify-bin
+
+## Comandos 
+
+npm init
+npm install
+npm run <script>
+mocha init <path>
