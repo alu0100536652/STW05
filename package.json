@@ -1,0 +1,41 @@
+{
+  "name": "Conversor",
+  "version": "0.0.1",
+  "description": "Conversor javascript de tipos",
+  "main": "conversor.js",
+  "scripts": {
+    "test": "mocha test",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js",
+    "blanket":"curl https://raw.githubusercontent.com/alex-seville/blanket/master/dist/qunit/blanket.min.js -o test/blanket.js",
+    "mochablanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/src/adapters/mocha-blanket.js -o test/mocha-blanket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100536652/STW04.git"
+  },
+  "keywords": [
+    "conversor"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100536652/STW04/issues"
+  },
+  "homepage": "https://github.com/alu0100536652/STW04",
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "chai": "^3.3.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^1.0.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
+  }
+}
