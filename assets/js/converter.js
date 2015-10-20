@@ -19,7 +19,11 @@
         Temperature.call(this, value, this.type);
         this.toFarenheit = function()
         {
-            return new Farenheit((this.valor * 9/5) + 32);
+            return new Farenheit((this.value * 9/5) + 32);
+        }
+        this.toString = function()
+        {
+            return this.value.toFixed(2)  + " Celsius";
         }
     }
     
@@ -28,7 +32,11 @@
         Temperature.call(this, value, this.type);
         this.toCelsius = function()
         {
-            return new Celsius((this.valor - 32)  * (5/9));
+            return new Celsius((this.value - 32)  * (5/9));
+        }
+        this.toString = function()
+        {
+            return this.value.toFixed(2)  + " Farenheit";
         }
     }
     
