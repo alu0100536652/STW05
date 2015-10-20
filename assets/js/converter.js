@@ -4,6 +4,10 @@
     function Measure(value,type) {
         this.value = value || 0;
         this.type = type || "Undefined";
+        this.toString = function()
+        {
+            return this.value.toFixed(2)  + this.type;
+        }
     }
     
     function Temperature(value,type) {
