@@ -1,23 +1,21 @@
 var expect = chai.expect,
     should = chai.should();
+    
 
-describe("TEST: Converter", function() {
-  
-  var sandbox;
-
+  var sandbox;  
   beforeEach(function() {
     // create a sandbox
-    sandbox = sinon.sandbox.create();
-
+    sandbox = sinon.sandbox.create(); 
     // stub some console methods
     sandbox.stub(window.console, "log");
     sandbox.stub(window.console, "error");
-  });
-
+  }); 
   afterEach(function() {
     // restore the environment as it was before
     sandbox.restore();
   });
+
+describe("TEST: Converter", function() {
     
   describe("Constructor", function() {
     it("Measure instance - Default value of Measure",function() {
@@ -58,15 +56,20 @@ describe("TEST: Converter", function() {
     });
     
     it("Celsius toFarenheit() - ",function(){
-      var celsius = new Celsius(0);
-      celsius.toFarenheit().toString().should.equal(new Farenheit(32).toString());
+        var celsius = new Celsius(0);
+        celsius.toFarenheit().toString().should.equal(new Farenheit(32).toString());
     });
     
     it("Farenheit toCelsius() - ",function(){
-      var farenheit = new Farenheit(32);
-      farenheit.toCelsius().toString().should.equal(new Celsius(0).toString());
+        var farenheit = new Farenheit(32);
+        farenheit.toCelsius().toString().should.equal(new Celsius(0).toString());
+    });
+    
+    it("Measure toString() - ", function() {
+        var measure = new Measure(10,'v');
+        measure.toString().should.equal("10.00v");
     });
       
-  })
+  });
   
 });

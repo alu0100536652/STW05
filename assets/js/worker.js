@@ -1,8 +1,9 @@
 (function(exports){
     "use strict";
-    importScripts('converter.js');
     
     self.addEventListener('message', function(e) {
+        
+        importScripts('converter.js');
         
         var data      = e.data,
             result    = "",
@@ -34,7 +35,7 @@
             self.postMessage(result);
         } 
         else {
-            self.postMessage("");
+            self.postMessage(result);
         }
   
     }, false);

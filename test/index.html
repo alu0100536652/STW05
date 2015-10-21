@@ -8,17 +8,26 @@
   </head>
   <body>
     
+    <input id="toconvert" class="u-full-width" type="text" autofocus oninput="convert();" placeholder="Introduzca un valor"  style="display:none">
+    <span id="converted" style="display:none"></span>
+    
     <div id="mocha"></div>
     <div id="messages"></div>
     <div id="fixtures"></div>
+    
     <script src="mocha.js"></script>
-    <script src="chai.js"></script>
-    <script src="sinon-1.17.1.js"></script>
-    <script src="blanket.js"
-          data-cover-adapter="mocha-blanket.js"></script>
+    <script src="lib/chai.js"></script>
+    <script src="lib/sinon-1.17.1.js"></script>
+    <script src="lib/blanket.js"
+          data-cover-adapter="lib/mocha-blanket.js"></script>
+          
     <script src="../assets/js/converter.js" data-cover></script>
+    <script src="../assets/js/app.js" data-cover></script>
+    <script src="../assets/js/worker.js" data-cover></script>
+    
     <script>mocha.setup('bdd');</script>
     <script src="tests.js"></script>
     <script>mocha.run();</script>
+    
   </body>
 </html>

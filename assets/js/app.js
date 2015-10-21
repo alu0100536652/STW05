@@ -4,7 +4,7 @@
     var worker = new Worker('assets/js/worker.js');
     
     exports.convert = function() {
-        var value = document.getElementById('convert').value;
+        var value = document.getElementById('toconvert').value;
         worker.postMessage(value);
     }
 
