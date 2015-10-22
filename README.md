@@ -21,6 +21,11 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 **Página del autor**
 
 * [Web Author](http://alu0100536652.github.io)
+* 
+
+## Travis
+
+[![Build Status](https://travis-ci.org/alu0100536652/STW04.svg)](https://travis-ci.org/alu0100536652/STW04)
 
 ## Datos de desarrollo
 
@@ -28,7 +33,7 @@ Durante la ejecución de tareas gulp se puede presentar un fallo con gulp-notify
 
 ## Comandos  útiles
 
-npm init
-npm install
-npm run <script>
-mocha init <path>
+- npm init
+- npm install
+- npm run <script>
+- mocha init <path>
