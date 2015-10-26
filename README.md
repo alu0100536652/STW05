@@ -12,11 +12,11 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 
 **Página de la práctica**
 
-* [Web](http://alu0100536652.github.io/STW04)
+* [Web](http://alu0100536652.github.io/STW05)
 
 **Página de la test**
 
-* [Test](http://alu0100536652.github.io/STW04/test/)
+* [Test](http://alu0100536652.github.io/STW05/test/)
 
 **Página del autor**
 
@@ -24,9 +24,9 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 
 ## Travis
 
-* [Travis](https://travis-ci.org/alu0100536652/STW04)
+* [Travis](https://travis-ci.org/alu0100536652/STW05)
 
-[![Build Status](https://travis-ci.org/alu0100536652/STW04.svg)](https://travis-ci.org/alu0100536652/STW04)
+[![Build Status](https://travis-ci.org/alu0100536652/STW05.svg)](https://travis-ci.org/alu0100536652/STW05)
 
 ## Datos de desarrollo
 
