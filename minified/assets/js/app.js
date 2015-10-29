@@ -1,0 +1,1 @@
+!function(e){"use strict";var t=new Worker("assets/js/worker.js");e.convert=function(){var e=document.getElementById("toconvert").value;t.postMessage(e)},t.addEventListener("message",function(e){document.getElementById("converted").innerHTML=e.data},!1)}(this);

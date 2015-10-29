@@ -6,8 +6,7 @@ var gulp       = require('gulp'),
     del        = require('del'),
     minifyHTML = require('gulp-minify-html'),
     minifyCSS  = require('gulp-minify-css'),
-    notify     = require('gulp-notify'),
-    imagemin   = require('gulp-imagemin');
+    notify     = require('gulp-notify');
     
 gulp.task('Minify', function () {
 
@@ -26,15 +25,6 @@ gulp.task('Minify', function () {
     
 });
 
-gulp.task('Imagemin', function() {
-
-  gulp.src('./assets/images/*')
-    .pipe(imagemin())
-    .pipe(gulp.dest('./minified/assets/images/'))
-    .pipe(notify({ message: "Tarea[Minimizado de imagenes] - Completada!"}));
-
-});
-
 gulp.task('Clean', function(cb) {
   del(['minified/*'], cb)
 });
@@ -45,5 +35,5 @@ gulp.task("Test", function(){
     .pipe(open({ uri: 'https://alu0100536652.github.io/STW03/test/'}))
 });
 
-gulp.task('default', ['Clean', 'Minify', 'Imagemin', 'Test'], function() {
+gulp.task('default', ['Clean', 'Minify', 'Test'], function() {
 });
