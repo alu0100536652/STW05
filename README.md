@@ -4,6 +4,8 @@
 
 Este repositorio aloja la práctica de conversión de tipos, realizada con html, css y javascript, usando tecnologías Mocha, Chai, Sinon, Karma y Travis para pruebas, Blanket para el análisis de cobertura de código y Gulp como sistema de construcción y gestión del proyecto. Además en esta práctica trabajaremos con web workers en javascript.
 
+El despliegue de la práctica será en GitHub Page y el servicio iaas.ull.es de la Universidad de La Laguna.
+
 Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de ingeniería informática de la universidad de La Laguna, realizada por el alumno David Carlos.
 
 **Repositorio GitHuB**
@@ -26,11 +28,11 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de
 
 * [Travis](https://travis-ci.org/alu0100536652/STW05)
 
+[![Build Status](https://travis-ci.org/alu0100536652/STW05.svg)](https://travis-ci.org/alu0100536652/STW05)
+
 ## Página de la práctica en el servidor iaas.ull.es
 
-* [Travis](https://10.6.128.90:8080)
-
-[![Build Status](https://travis-ci.org/alu0100536652/STW05.svg)](https://travis-ci.org/alu0100536652/STW05)
+* [Web](http://10.6.128.90:8080)
 
 ## Datos de desarrollo
 
