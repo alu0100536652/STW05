@@ -6,7 +6,7 @@ Este repositorio aloja la práctica de conversión de tipos, realizada con html,
 
 El despliegue de la práctica será en GitHub Page y el servicio iaas.ull.es de la Universidad de La Laguna.
 
-Esta práctica pertenece a la asignatura Sistemas y Tecnologias Web del grado de ingeniería informática de la universidad de La Laguna, realizada por el alumno David Carlos.
+Esta práctica pertenece a la asignatura Sistemas y Tecnologías Web del grado de Ingeniería Informática de la Universidad de La Laguna, realizada por el alumno David Carlos.
 
 **Repositorio GitHuB**
 
