@@ -16,7 +16,15 @@ Esta práctica pertenece a la asignatura Sistemas y Tecnologías Web del grado d
 
 Accedemos al enlace del iass, e iniciamos sesión con nuestras credenciales de la ULL.
 
-Modificamos el acceso a noVNC para poder visualizar la terminal de la máquina en el navegador o también podemos acceder por SSH mediante un cliente ssh una vez conozcamos nuestra ip, que la averiguaremos con el comando ifconfig cuando accedemos a la máquina.
+![](markdown/inicio.jpg)
+
+Modificamos el acceso a noVNC para poder visualizar la terminal de la máquina en el navegador o también podemos acceder por SSH mediante un cliente ssh una vez conozcamos nuestra ip, que la averiguaremos con el comando `ifconfig` cuando accedemos a la máquina.
+
+![](markdown/config.jpg)
+
+![](markdown/ifconfig.jpg)
+
+![](markdown/clientessh.jpg)
 
 Las credenciales de sesión de la máquina  será usuario / usuario que posteriormente cambiaremos la contraseña una vez iniciemos por primera vez sesión.
 
@@ -29,13 +37,19 @@ nodejs --version
 git --version
 ```
 
+![](markdown/nodegitversion.jpg)
+
 Instalaremos npm ya que no está instalado en la máquina.
 
 `sudo apt-get install npm`
 
+![](markdown/npm.jpg)
+
 **Clonando un repositorio git**
 
 Clonaremos un repositorio git de un proyecto para posteriormente desplegarlo en la máquina.
+
+![](markdown/directorio.jpg)
 
 **Desplegar la aplicación**
 
@@ -45,9 +59,13 @@ Primero instalaremos las dependencias necesarias de nuestra aplicación, especif
 
 Ejecutaremos nuestro servidor de ficheros estáticos para poder acceder posteriormente desde nuestro navegador a nuestra aplicación.
 
+![](markdown/node.jpg)
+
 **Visualizar nuestra web**
 
 Accedemos en nuestro navegador a nuestra ip que ya hemos averiguado anteriormente al acceder a nuestra máquina e indicamos también el puerto que hemos configurado de escucha en el servidor de ficheros estáticos.
+
+![](markdown/nodeweb.jpg)
 
 ##Enlaces
 
